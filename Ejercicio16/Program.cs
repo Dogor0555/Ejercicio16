@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+int i = 1;
+
+do
+{
+    Console.WriteLine(i);
+    i++;
+} while (i <= 10);
